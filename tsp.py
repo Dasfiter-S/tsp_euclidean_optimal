@@ -62,7 +62,6 @@ def tsp_euclidean_optimal(cities):
     return hamiltonian_path, total_distance
 
 def tsp_agent(agent_id):
-    # Use the tsp_euclidean_optimal function with the given neural network
     tour, distance = tsp_euclidean_optimal(cities)
     return tour, distance
 
